@@ -235,49 +235,49 @@ button {
 
 @font-face {
   font-family: "M PLUS Rounded 1c";
-  src: url(/assets/fonts/MPLUSRounded1c-ExtraBold.woff2), url(/assets/fonts/MPLUSRounded1c-ExtraBold.woff);
+  src: url(..//fonts/MPLUSRounded1c-ExtraBold.woff2), url(..//fonts/MPLUSRounded1c-ExtraBold.woff);
   font-weight: 800;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "M PLUS Rounded 1c";
-  src: url(/assets/fonts/MPLUSRounded1c-Medium.woff2), url(/assets/fonts/MPLUSRounded1c-Medium.woff);
+  src: url(..//fonts/MPLUSRounded1c-Medium.woff2), url(..//fonts/MPLUSRounded1c-Medium.woff);
   font-weight: 500;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "M PLUS Rounded 1c";
-  src: url(/assets/fonts/MPLUSRounded1c-Black.woff2), url(/assets/fonts/MPLUSRounded1c-Black.woff);
+  src: url(..//fonts/MPLUSRounded1c-Black.woff2), url(..//fonts/MPLUSRounded1c-Black.woff);
   font-weight: 900;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-Bold.woff2), url(/assets/fonts/Montserrat-Bold.woff);
+  src: url(..//fonts/Montserrat-Bold.woff2), url(..//fonts/Montserrat-Bold.woff);
   font-weight: 700;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-Medium.woff2), url(/assets/fonts/Montserrat-Medium.woff);
+  src: url(..//fonts/Montserrat-Medium.woff2), url(..//fonts/Montserrat-Medium.woff);
   font-weight: 500;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-Regular.woff2), url(/assets/fonts/Montserrat-Regular.woff);
+  src: url(..//fonts/Montserrat-Regular.woff2), url(..//fonts/Montserrat-Regular.woff);
   font-weight: 400;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/assets/fonts/Montserrat-SemiBold.woff2), url(/assets/fonts/Montserrat-SemiBold.woff);
+  src: url(..//fonts/Montserrat-SemiBold.woff2), url(..//fonts/Montserrat-SemiBold.woff);
   font-weight: 600;
   font-display: swap;
   font-style: normal; }
@@ -303,7 +303,7 @@ button {
 
 /* Sections for all pages */
 .header {
-  background-image: url(/assets/images/header-bg.svg);
+  background-image: url(..//images/header-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top right; }
@@ -619,13 +619,13 @@ button {
     left: 50%;
     transform: translateX(-50%); }
   .compare .list-1::after {
-    content: url(/assets/images/list-1.svg);
+    content: url(..//images/list-1.svg);
     display: inline-block;
     top: 30px;
     right: -125px;
     position: absolute; }
   .compare .list-2::after {
-    content: url(/assets/images/list-2.svg);
+    content: url(..//images/list-2.svg);
     display: inline-block;
     top: 20px;
     right: -90px;
@@ -633,19 +633,19 @@ button {
   .compare .list-2 {
     margin-bottom: 115px; }
   .compare .list-3::after {
-    content: url(/assets/images/list-3.svg);
+    content: url(..//images/list-3.svg);
     display: inline-block;
     top: -50px;
     right: -130px;
     position: absolute; }
   .compare .list-4::after {
-    content: url(/assets/images/list-4.svg);
+    content: url(..//images/list-4.svg);
     display: inline-block;
     top: 30px;
     left: -137px;
     position: absolute; }
   .compare .list-5::after {
-    content: url(/assets/images/list-5.svg);
+    content: url(..//images/list-5.svg);
     display: inline-block;
     top: 20px;
     left: -110px;
@@ -653,7 +653,7 @@ button {
   .compare .list-5 {
     margin-bottom: 115px; }
   .compare .list-6::after {
-    content: url(/assets/images/list-6.svg);
+    content: url(..//images/list-6.svg);
     display: inline-block;
     top: -55px;
     left: -150px;
@@ -754,7 +754,7 @@ button {
       color: #40B5BB; }
 
 .main {
-  background-image: url(/assets/images/color-bg.svg);
+  background-image: url(..//images/color-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -1100px;
@@ -1201,7 +1201,7 @@ button {
         .main .teachers .teacher-slogan p {
           display: none; } }
       .main .teachers .teacher-slogan p::before {
-        content: url(/assets/images/card-dot.svg);
+        content: url(..//images/card-dot.svg);
         position: absolute;
         top: 10px;
         left: 20px; }
@@ -1234,33 +1234,33 @@ button {
         position: relative;
         z-index: 3; }
     .main .teachers .teacher-card-1::after {
-      content: url(/assets/images/tc-bg.svg);
+      content: url(..//images/tc-bg.svg);
       position: absolute;
       top: 20px;
       left: -80px;
       z-index: 1;
       transform: scale(1.1); }
     .main .teachers .teacher-card-2::after {
-      content: url(/assets/images/tc-bg2.svg);
+      content: url(..//images/tc-bg2.svg);
       position: absolute;
       top: -150px;
       left: -140px;
       z-index: 1;
       transform: scale(1.1); }
     .main .teachers .teacher-slogan-lt p::before {
-      content: url(/assets/images/card-dot.svg);
+      content: url(..//images/card-dot.svg);
       position: absolute;
       top: 110px;
       left: 20px; }
     .main .teachers .teacher-card-3::after {
-      content: url(/assets/images/tc-bg3.svg);
+      content: url(..//images/tc-bg3.svg);
       position: absolute;
       top: -50px;
       left: -140px;
       z-index: 1;
       transform: scale(1.1); }
     .main .teachers .teacher-card-5::after {
-      content: url(/assets/images/tc-bg5.svg);
+      content: url(..//images/tc-bg5.svg);
       position: absolute;
       top: 60px;
       left: -80px;
@@ -1290,7 +1290,7 @@ button {
       .main .teacher-mob .swiper-button-prev::after, .main .teacher-mob .swiper-button-next::after {
         width: 20px;
         height: 20px;
-        content: url(/assets/images/icons/arrow-down-black.svg);
+        content: url(..//images/icons/arrow-down-black.svg);
         background-image: none; }
     .main .teacher-mob .swiper-button-next {
       right: 20px; }
@@ -1321,7 +1321,7 @@ button {
       .main .teacher-mob .teacher-mob__card .card-text p {
         font-weight: 500; }
     .main .teacher-mob .card-1 .card-title {
-      background-image: url(/assets/images/tc-bg.svg);
+      background-image: url(..//images/tc-bg.svg);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: 13px; }
@@ -1388,7 +1388,7 @@ button {
       margin: 50px 0 130px auto; }
 
 .form {
-  background-image: url(/assets/images/form-bg.svg);
+  background-image: url(..//images/form-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
